@@ -17,8 +17,7 @@ Run `nodemon start` to start the server
 
 ## Sample API
 1. Create new patient 
-URL - http://localhost:8080/
-METHOD - POST
+URL - http://localhost:8080/ ,METHOD - POST
 
 Sample Request
 ```json
@@ -37,6 +36,19 @@ Sample Response
     "status": "A",
     "__v": 0
 }
+```
+
+2. List patients
+URL - http://localhost:8080/ , METHOD - GET 
+
+Sample Response
+
+```json
+[{
+    "_id":"60ebf7d3eb4fa53e68f9346a",
+    "name":"rrr",
+    "patientNo":"88"
+}]
 ```
 
 
